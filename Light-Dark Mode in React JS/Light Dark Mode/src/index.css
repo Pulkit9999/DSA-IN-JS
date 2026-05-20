@@ -1,0 +1,22 @@
+.btn {
+  height: 50px;
+  width: 90px;
+  background-color: #808080e1;
+  color: black;
+  border:2px solid black;
+}
+
+#container{
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dark{
+  background-color: black;
+}
+
+.light{
+  background-color: white;
+}
