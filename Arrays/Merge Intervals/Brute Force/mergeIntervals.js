@@ -42,3 +42,4 @@ const intervals = [
 let ans = mergeIntervals(intervals);
 console.log(ans);
 for (const interval of ans) console.log(interval[0], interval[1]);
+
