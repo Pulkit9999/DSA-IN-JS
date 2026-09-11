@@ -10,6 +10,8 @@ function recurPermute(arr, ds, freqMap, ans) {
       ds.push(arr[i]);
       freqMap.set(arr[i], 1);
       recurPermute(arr, ds, freqMap, ans);
+      freqMap.delete(arr[i]);
+      ds.pop();
     }
   }
 }
